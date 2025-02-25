@@ -1,5 +1,5 @@
 .container {
-    border: 1px solid black;
+    border: 1px solid;
     border-radius: 20px;
     margin-top: 100px;
     margin-left: 500px;
@@ -27,3 +27,54 @@
     padding-right: 200px;
 } */
 
+.add-pair {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+}
+
+.add-pair:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.remove-pair {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    border-radius: 20px; 
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.remove-pair:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.place-order {
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid;
+    border-radius: 20px;
+    position:relative;
+    left: 30px;
+}
+
+.place-order:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
