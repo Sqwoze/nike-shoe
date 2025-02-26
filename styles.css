@@ -78,3 +78,60 @@
     cursor: pointer;
     background-color: lightgreen;
 }
+
+.socials {
+    text-align: center;
+    word-spacing: 20px;
+    margin-top: 30px;
+}
+
+.github-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px solid;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.github-btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.x-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px solid;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.x-btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.gmail-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px solid;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gmail-btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
