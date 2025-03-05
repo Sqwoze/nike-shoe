@@ -27,7 +27,7 @@
     padding-right: 200px;
 } */
 
-.add-pair {
+#add-pair {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -39,12 +39,12 @@
     left: 200px;
 }
 
-.add-pair:hover {
+#add-pair:hover {
     cursor: pointer;
     background-color: lightgreen;
 }
 
-.remove-pair {
+#remove-pair {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -57,12 +57,12 @@
     left: 50px;
 }
 
-.remove-pair:hover {
+#remove-pair:hover {
     cursor: pointer;
     background-color: lightcoral;
 }
 
-.place-order {
+#place-order {
     font-weight: bold;
     padding-left: 25px;
     padding-right: 25px;
@@ -74,7 +74,7 @@
     left: 30px;
 }
 
-.place-order:hover {
+#place-order:hover {
     cursor: pointer;
     background-color: lightgreen;
 }
@@ -135,3 +135,19 @@
     background-color: black;
     cursor: pointer;
 }
+
+#pairs-counter {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+#order-placement {
+    color: black;
+    background: lightgreen;
+    border: 0px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;   
+}   
